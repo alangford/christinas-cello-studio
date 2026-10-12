@@ -1,0 +1,98 @@
+{
+  "hero": {
+    "src": "/images/hero.avif",
+    "alt": "Christina, cello teacher",
+    "width": 487,
+    "height": 660
+  },
+  "location": {
+    "src": "/images/location.avif",
+    "alt": "Studio location",
+    "width": 940,
+    "height": 440
+  },
+  "footer": {
+    "src": "/images/footer.avif",
+    "alt": "",
+    "width": 876,
+    "height": 440
+  },
+  "bio": {
+    "src": "/images/bio.avif",
+    "alt": "Christina Kenley",
+    "width": 400,
+    "height": 400
+  },
+  "notes": {
+    "src": "/images/notes.avif",
+    "alt": "",
+    "width": 980,
+    "height": 653
+  },
+  "testimonialBanner": {
+    "src": "/images/testimonialBanner.avif",
+    "alt": "",
+    "width": 980,
+    "height": 466
+  },
+  "testimonialPortrait": {
+    "src": "/images/testimonialPortrait.avif",
+    "alt": "Two women smiling with cellos",
+    "width": 301,
+    "height": 540
+  },
+  "recordings": {
+    "src": "/images/recordings.avif",
+    "alt": "Photo from Christina's Cello Studio",
+    "width": 796,
+    "height": 588
+  },
+  "policies": {
+    "src": "/images/policies.avif",
+    "alt": "Photo from Christina's Cello Studio",
+    "width": 759,
+    "height": 560
+  },
+  "recitalA": {
+    "src": "/images/recitalA.avif",
+    "alt": "Photo from a studio recital",
+    "width": 823,
+    "height": 617
+  },
+  "recitalB": {
+    "src": "/images/recitalB.avif",
+    "alt": "Photo from a studio recital",
+    "width": 700,
+    "height": 525
+  },
+  "faq": {
+    "src": "/images/faq.avif",
+    "alt": "Photo from Christina's Cello Studio",
+    "width": 940,
+    "height": 440
+  },
+  "pricing": {
+    "src": "/images/pricing.avif",
+    "alt": "Photo from Christina's Cello Studio",
+    "width": 490,
+    "height": 664
+  },
+  "contact": {
+    "src": "/images/contact.avif",
+    "alt": "Photo from Christina's Cello Studio",
+    "width": 490,
+    "height": 664
+  },
+  "testimonialPortrait2": {
+    "src": "/images/testimonialPortrait2.avif",
+    "alt": "Student testimonial photo",
+    "width": 301,
+    "height": 540
+  },
+  "testimonialPortrait3": {
+    "src": "/images/testimonialPortrait3.avif",
+    "alt": "Student testimonial photo",
+    "width": 301,
+    "height": 540
+  }
+}
