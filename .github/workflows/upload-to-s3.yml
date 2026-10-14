@@ -42,7 +42,7 @@ jobs:
             printf 'VITE_FORM_ENDPOINT=%s\n' "$VITE_FORM_ENDPOINT" > .env.production
             npm run build
         env:
-          VITE_SOUNDCLOUD_URL: ${{ secrets.VITE_SOUND_CLOUD_URL }}
+          VITE_SOUND_CLOUD_URL: ${{ secrets.VITE_SOUND_CLOUD_URL }}
           VITE_FORM_ENDPOINT: ${{ secrets.VITE_FORM_ENDPOINT }}
 
       - name: Sync to S3
