@@ -37,7 +37,11 @@ jobs:
         run: npm ci
 
       - name: Build site
-        run: npm run build
+        run: |
+            printf 'VITE_SOUNDCLOUD_URL=%s\n' "$VITE_SOUNDCLOUD_URL" > .env.production
+            npm run build
+        env:
+          VITE_SOUNDCLOUD_URL: ${{ secrets.VITE_SOUNDCLOUD_URL }}
 
       - name: Sync to S3
         run: |
