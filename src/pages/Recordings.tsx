@@ -3,10 +3,13 @@ import { PageHeader } from "../components/PageHeader";
 import { routeMeta } from "../content/site";
 import { usePageMeta } from "../usePageMeta";
 
-const soundcloud = "https://soundcloud.com/user-489951656/sets/christinas-senior-recital/s-EiY6x";
-const soundcloudEmbed = `https://w.soundcloud.com/player/?url=${encodeURIComponent(
-  soundcloud,
-)}&color=%2312353a&auto_play=false&hide_related=true&show_comments=false&show_user=true&visual=false`;
+
+const soundcloud =
+  "https://soundcloud.com/user-489951656/sets/christinas-senior-recital/s-EiY6x";
+
+const soundcloudEmbed = import.meta.env.VITE_SOUND_CLOUD_URL;
+  
+
 
 export default function Recordings() {
   usePageMeta(routeMeta("/sample-recordings"));
