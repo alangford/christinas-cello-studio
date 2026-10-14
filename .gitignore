@@ -2,3 +2,27 @@ node_modules
 dist
 .env
 .env.local
+.terraform
+.terraform.lock.hcl
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# Local Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Terraform overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI configuration
+.terraformrc
+terraform.rc
+*.tfvars
