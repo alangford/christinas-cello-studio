@@ -38,10 +38,12 @@ jobs:
 
       - name: Build site
         run: |
-            printf 'VITE_SOUNDCLOUD_URL=%s\n' "$VITE_SOUNDCLOUD_URL" > .env.production
+            printf 'VITE_SOUND_CLOUD_URL=%s\n' "$VITE_SOUND_CLOUD_URL" > .env.production
+            printf 'VITE_FORM_ENDPOINT=%s\n' "$VITE_FORM_ENDPOINT" > .env.production
             npm run build
         env:
-          VITE_SOUNDCLOUD_URL: ${{ secrets.VITE_SOUNDCLOUD_URL }}
+          VITE_SOUNDCLOUD_URL: ${{ secrets.VITE_SOUND_CLOUD_URL }}
+          VITE_FORM_ENDPOINT: ${{ secrets.VITE_FORM_ENDPOINT }}
 
       - name: Sync to S3
         run: |
