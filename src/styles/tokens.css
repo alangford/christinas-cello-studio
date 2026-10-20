@@ -1,28 +1,30 @@
 :root {
-  /* Colour: concert-hall teal, rosin-grey paper, string gold, cello varnish */
-  --hall: #12353a;
-  --rosin: #edf0ec;
-  --mist: #d3dfdb;
-  --varnish: #8a3a1c;
-  --gold: #d6a63c;
-  --ink: #12353a;
-  --ink-soft: #3f5c5f;
-  --focus: var(--varnish);
+  /* A quiet, editorial palette: warm paper, deep olive, and cello-varnish terracotta. */
+  --hall: #29382f;
+  --rosin: #f7f4ed;
+  --mist: #dfe3da;
+  --varnish: #8b4e39;
+  --gold: #c9ae78;
+  --ink: #29382f;
+  --ink-soft: #58645b;
+  --focus: #9c543d;
+  --sage: #e9ece4;
+  --paper: #fffdf8;
 
-  /* Type */
+  /* These font families are already bundled with the project. */
   --font-display: "Newsreader Variable", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
   --font-body: "Hanken Grotesk Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
 
-  --step--1: clamp(0.875rem, 0.85rem + 0.1vw, 0.95rem);
-  --step-0: clamp(1.0625rem, 1rem + 0.3vw, 1.1875rem);
-  --step-1: clamp(1.3rem, 1.15rem + 0.75vw, 1.6rem);
-  --step-2: clamp(1.65rem, 1.35rem + 1.5vw, 2.4rem);
-  --step-3: clamp(2.1rem, 1.6rem + 2.4vw, 3.5rem);
-  --step-4: clamp(2.9rem, 1.8rem + 4.8vw, 5.6rem);
+  --step--1: clamp(0.82rem, 0.8rem + 0.1vw, 0.92rem);
+  --step-0: clamp(0.98rem, 0.95rem + 0.2vw, 1.1rem);
+  --step-1: clamp(1.2rem, 1.1rem + 0.55vw, 1.55rem);
+  --step-2: clamp(1.65rem, 1.35rem + 1.45vw, 2.35rem);
+  --step-3: clamp(2.15rem, 1.6rem + 2.35vw, 3.4rem);
+  --step-4: clamp(3.2rem, 2rem + 5.5vw, 6.4rem);
 
   /* Layout */
   --container: 72rem;
   --gutter: clamp(1.25rem, 4vw, 2.5rem);
   --measure: 62ch;
-  --radius: 4px;
+  --radius: 2px;
 }
