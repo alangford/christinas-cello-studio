@@ -1,15 +1,15 @@
 {
   "siteUrl": "https://www.christinascellostudio.com",
   "siteName": "Christina's Cello Studio",
-  "defaultDescription": "Cello lessons from a local cello teacher in South Jordan. Christina's cello studio for beginner, intermediate and advanced students fosters artistic skill and confidence. Schedule a free first lesson!",
+  "defaultDescription": "Personalized cello lessons for children, teens, and adults in South Jordan, Utah, and online. Beginners through advanced players can start with a free first lesson.",
   "routes": [
-    { "path": "/", "label": "Home", "title": "Teacher | Christina's Cello Studio | South Jordan", "description": "Cello lessons from a local cello teacher in South Jordan. Christina's cello studio for beginner, intermediate and advanced students fosters artistic skill and confidence. Schedule a free first lesson!" },
-    { "path": "/about", "label": "Teacher Bio", "title": "About the Teacher | Christina's Cello Studio", "description": "BYU Grad Christina Kenley teaches cello lessons and has an impressive background in cello performance." },
-    { "path": "/student-testimonials", "label": "Student Testimonials", "title": "Student Testimonials | Christina's Cello Studio", "description": "Testimonials from some of my students." },
-    { "path": "/sample-recordings", "label": "Recordings", "title": "Recordings | Christina's Cello Studio", "description": "Sample recordings from Christina's senior recital at BYU." },
-    { "path": "/about-3", "label": "Studio Policies", "title": "Studio Policies | Christina's Cello Studio", "description": "Mastering the cello takes hard work and discipline. I want to help you succeed and have high expectations of my students." },
-    { "path": "/about-1", "label": "FAQ", "title": "FAQ | Christina's Cello Studio", "description": "" },
-    { "path": "/lessons", "label": "Pricing", "title": "Pricing | Christina's Cello Studio", "description": "Information about my studio pricing policies." },
-    { "path": "/contact-me", "label": "Contact", "title": "Contact | Christina's Cello Studio", "description": "Contact me to try the cello and schedule your first lesson free of charge!" }
+    { "path": "/", "label": "Home", "title": "Cello Lessons in South Jordan, Utah | Christina's Cello Studio", "description": "Personalized cello lessons for children, teens, and adults in South Jordan, Utah, and online. Beginners through advanced players can start with a free first lesson." },
+    { "path": "/about", "label": "Teacher Bio", "title": "Meet Christina Kenley | Cello Teacher in South Jordan", "description": "Get to know Christina Kenley, a BYU cello-performance graduate and teacher serving beginner, intermediate, and advanced students." },
+    { "path": "/student-testimonials", "label": "Student Testimonials", "title": "Student Testimonials | Christina's Cello Studio", "description": "Read what students and parents say about learning cello with Christina Kenley in South Jordan, Utah." },
+    { "path": "/sample-recordings", "label": "Recordings", "title": "Cello Recordings & Performances | Christina's Cello Studio", "description": "Listen to sample cello performances by Christina Kenley, including recital recordings and classical repertoire." },
+    { "path": "/about-3", "label": "Studio Policies", "title": "Studio Policies | Christina's Cello Studio", "description": "Learn about expectations, scheduling, and studio policies for cello lessons with Christina Kenley." },
+    { "path": "/about-1", "label": "FAQ", "title": "Cello Lesson FAQs | Christina's Cello Studio", "description": "Answers to common questions about cello lessons, students, and getting started with Christina's Cello Studio." },
+    { "path": "/lessons", "label": "Pricing", "title": "Cello Lesson Pricing | Christina's Cello Studio", "description": "Explore lesson lengths, monthly tuition, studio policies, and the free first lesson at Christina's Cello Studio." },
+    { "path": "/contact-me", "label": "Contact", "title": "Contact Christina's Cello Studio | Free First Cello Lesson", "description": "Ask about cello lessons in South Jordan, Utah, or online, and arrange a free first lesson with Christina Kenley." }
   ]
 }
