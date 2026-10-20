@@ -8,7 +8,7 @@ type Props = {
 export function PageHeader({ title, texture }: Props) {
   const style = texture
     ? {
-        backgroundImage: `linear-gradient(rgb(18 53 58 / 0.93), rgb(18 53 58 / 0.93)), url("${image(texture).src}")`,
+        backgroundImage: `linear-gradient(rgb(41 56 47 / 0.88), rgb(41 56 47 / 0.84)), url("${image(texture).src}")`,
       }
     : undefined;
 
